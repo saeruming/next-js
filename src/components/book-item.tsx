@@ -1,6 +1,7 @@
 import type { BookData } from "@/type";
 import Link from "next/link";
 import style from "./book-item.module.css";
+//
 export default function BookItem({
   id,
   title,

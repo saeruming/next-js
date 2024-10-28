@@ -1,4 +1,5 @@
 import { BookData } from "@/type";
+//
 export default async function fetchRandomBooks(): Promise<
   BookData[]
 > {

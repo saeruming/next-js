@@ -6,7 +6,7 @@ import { InferGetStaticPropsType } from "next";
 import fetchBooks from "@/lib/fetch-books";
 import fetchRandomBooks from "@/lib/fetch-random-books";
 import Head from "next/head";
-
+//
 //SSG 방식
 export const getStaticProps = async () => {
   //두개의 함수를 병렬로 진행(동시에)

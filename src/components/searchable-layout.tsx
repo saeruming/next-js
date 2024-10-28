@@ -3,6 +3,7 @@ import React, { ReactNode, useEffect } from "react";
 import { useState } from "react";
 import style from "./searchable-layout.module.css";
 
+//
 export default function SearchableLayout({
   children,
 }: {

@@ -53,4 +53,3 @@ export default function Page() {
 Page.getLayout = (page: ReactNode) => {
   return <SearchableLayout>{page}</SearchableLayout>;
 };
-//

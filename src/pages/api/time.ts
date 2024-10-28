@@ -7,3 +7,4 @@ export default function handler(
   const date = new Date();
   res.json({ time: date.toLocaleString() });
 }
+//

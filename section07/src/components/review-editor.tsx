@@ -12,7 +12,12 @@ export default function ReviewEditor({
         className={style.form_container}
         action={createReviewAction}
       >
-        <input name="bookId" value={bookId} hidden />
+        <input
+          name="bookId"
+          value={bookId}
+          hidden
+          readOnly
+        />
         <textarea
           required
           name="content"

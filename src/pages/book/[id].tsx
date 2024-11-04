@@ -6,7 +6,7 @@ import style from "./[id].module.css";
 import fetchOneBook from "@/lib/fetch-one-book";
 import { useRouter } from "next/router";
 import Head from "next/head";
-
+//
 //사전 렌더링을 위한 1.경로 설정하기
 export const getStaticPaths = () => {
   return {

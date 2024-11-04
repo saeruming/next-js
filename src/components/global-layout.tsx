@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import Link from "next/link";
 import style from "./global-layout.module.css";
 
-// layout
+
 export default function GlobalLayout({
   children,
 }: {

@@ -13,7 +13,7 @@ const jjanguFont = localFont({
   ],
 });
 
-const jjanguFont2 = localFont({
+export const jjanguFont2 = localFont({
   src: [
     {
       path: "./fonts/startF.ttf",
@@ -86,7 +86,10 @@ export default function Home() {
       </div>
       <div className={style.start}>
         <div className={jjanguFont2.className}>
-          <Link className={style.startLink} href={"/test"}>
+          <Link
+            className={style.startLink}
+            href={"/test/1"}
+          >
             시작하기
           </Link>
         </div>
